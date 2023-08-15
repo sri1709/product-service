@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:111271881861:task-definition/Product-service-td:3"
+        TaskDefinition: "arn:aws:ecs:us-east-1:111271881861:task-definition/Product-service-td:5"
         LoadBalancerInfo:
           ContainerName: "ProductService-Microservice-container-877629"
           ContainerPort: "8083"
